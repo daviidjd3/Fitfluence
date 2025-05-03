@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitFluence - Comparte tu entrenamiento</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #121212;
+            color: white;
+        }
+        header {
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        h2 {
+            color: #ff4b2b;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            transition: transform 0.2s ease;
+        }
+        .card:hover {
+            transform: scale(1.03);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e1e1e;
+            color: #aaa;
+        }
+        .cta {
+            background: #ff4b2b;
+            padding: 20px;
+            text-align: center;
+            border-radius: 12px;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 40px 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FitFluence</h1>
+        <p>La comunidad social de entrenamientos por y para influencers fitness.</p>
+    </header>
+
+    <section>
+        <h2>Workouts populares</h2>
+        <div class="grid">
+            <div class="card"><img src="https://source.unsplash.com/featured/?fitness" alt="Workout 1"><p>HIIT con @AnaFit</p></div>
+            <div class="card"><img src="https://source.unsplash.com/featured/?gym" alt="Workout 2"><p>Rutina fuerza con @TheGymBro</p></div>
+            <div class="card"><img src="https://source.unsplash.com/featured/?yoga" alt="Workout 3"><p>Yoga flow con @ZenLaura</p></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Top Influencers</h2>
+        <div class="grid">
+            <div class="card"><img src="https://source.unsplash.com/featured/?trainer" alt="Influencer 1"><p>@MoveItMax - 1.2M seguidores</p></div>
+            <div class="card"><img src="https://source.unsplash.com/featured/?homeworkout" alt="Influencer 2"><p>@LauraZen - 950K seguidores</p></div>
+            <div class="card"><img src="https://source.unsplash.com/featured/?crossfit" alt="Influencer 3"><p>@BeastMode - 870K seguidores</p></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Retos semanales</h2>
+        <div class="grid">
+            <div class="card"><p>Desafío 7 días sin excusas</p></div>
+            <div class="card"><p>Reto abdominales 30 días</p></div>
+            <div class="card"><p>Power Challenge con @AnaFit</p></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="cta">Únete ahora y comparte tu entrenamiento</div>
+    </section>
+
+    <footer>
+        FitFluence © 2025 - Comparte tu esfuerzo, inspira al mundo.
+    </footer>
+</body>
+</html>
